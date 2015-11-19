@@ -1,0 +1,9 @@
+X86 sll
+{
+}
+ P0          ;
+ MOV [x],$1  ;
+ MOV EAX,[x] ;
+ MOV EBX,[x] ;
+exists
+(0:EAX=1 /\ 0:EBX=1)
